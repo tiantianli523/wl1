@@ -8,9 +8,11 @@ import { MyMenuGatherComponent } from './my-menu-gather/my-menu-gather.component
 import { MessageBoardComponent } from './message-board/message-board.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { SetPersonalInformationComponent } from './set-personal-information/set-personal-information.component';
+import { FavoriteMenuComponent } from './favorite-menu/favorite-menu.component';
 
 /*导入路由模块*/
 import {PersonalCenterRoutingModule} from './personal-center-routing.module';
+
 @NgModule({
   declarations: [
     MyMenuComponent,
@@ -19,7 +21,8 @@ import {PersonalCenterRoutingModule} from './personal-center-routing.module';
     MessageBoardComponent,
     FavoriteComponent,
     PersonalCenterComponent,
-    SetPersonalInformationComponent
+    SetPersonalInformationComponent,
+    FavoriteMenuComponent
   ],
   imports: [
     BrowserModule,

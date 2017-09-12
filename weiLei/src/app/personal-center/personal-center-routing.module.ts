@@ -12,7 +12,7 @@ import { MyMenuGatherComponent } from './my-menu-gather/my-menu-gather.component
 import { MessageBoardComponent } from './message-board/message-board.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { SetPersonalInformationComponent } from './set-personal-information/set-personal-information.component';
-
+import { FavoriteMenuComponent } from './favorite-menu/favorite-menu.component';
 
 //配置路由表(父)
 const routes: Routes = [
@@ -20,9 +20,14 @@ const routes: Routes = [
     path:'personal-center',
     component:PersonalCenterComponent,
     children:[
+
       {
         path:'favorite',
         component:FavoriteComponent
+      },
+      {
+        path:'favorite-menu',
+        component:FavoriteMenuComponent
       },
       {
         path:'my-menu',
@@ -44,6 +49,11 @@ const routes: Routes = [
         path:'message-board',
         component:MessageBoardComponent
       },
+      {
+        path: '',
+        redirectTo: '/personal-center/my-menu',
+        pathMatch:'prefix'
+      }
 
     ]
   }

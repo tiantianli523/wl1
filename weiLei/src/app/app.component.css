@@ -1,5 +1,5 @@
 .container{
-  width: 1100px;
+  width: 1150px;
 }
 #nav li{
   list-style: none;
@@ -42,6 +42,31 @@
   height: 40px;
   border-radius: 0px;
   margin-top: 5px;
+}
+#nav li a.active{
+  color: rgba(237, 237, 237, 0.77);
+}
+.container_bottom{
+  height: 200px;
+}
+.bottom_up{
+  width: 140px;
+  height: 45px;
+  background: #84CF6D;
+  padding-top: 15px;
+  padding-left: 40px;
+  margin-top: 100px;
+  margin-left: 30px;
+  color: #fefefe;
+}
+.bottom_down{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.bottom_down a{
+  color: grey;
+  font-size: 13px;
+  text-decoration: none;
 }
 
 
