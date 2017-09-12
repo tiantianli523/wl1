@@ -12,7 +12,7 @@ import { MenuDetailsComponent } from './menu-details/menu-details.component';
 import { HotListComponent } from './hot-list/hot-list.component';
 import { DynamicComponent } from './dynamic/dynamic.component';
 import { SearchComponent } from './search/search.component';
-
+// import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +25,8 @@ import { SearchComponent } from './search/search.component';
     MenuDetailsComponent,
     HotListComponent,
     DynamicComponent,
-    SearchComponent
+    SearchComponent,
+    // NavbarComponent
   ],
   imports: [
     BrowserModule
