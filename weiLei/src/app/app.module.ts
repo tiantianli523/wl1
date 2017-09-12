@@ -15,15 +15,6 @@ import { SearchComponent } from './search/search.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 import {AppRoutingModule} from './app-routing.module';
-/*
-import { MyMenuComponent } from './personal-center/my-menu/my-menu.component';
-import { MyProductComponent } from './personal-center/my-product/my-product.component';
-import { MyMenuGatherComponent } from './personal-center/my-menu-gather/my-menu-gather.component';
-import { MessageBoardComponent } from './personal-center/message-board/message-board.component';
-import { FavoriteComponent } from './personal-center/favorite/favorite.component';
-import { SetPersonalInformationComponent } from './personal-center/set-personal-information/set-personal-information.component';
-*/
-
 
 /*导入路由模块*/
 import {PersonalCenterModule} from './personal-center/personal-center.module';
@@ -41,12 +32,6 @@ import {PersonalCenterModule} from './personal-center/personal-center.module';
     DynamicComponent,
     SearchComponent,
     PageNotFoundComponent
-   /* MyMenuComponent,
-    MyProductComponent,
-    MyMenuGatherComponent,
-    MessageBoardComponent,
-    FavoriteComponent,
-    SetPersonalInformationComponent*/
   ],
   imports: [
     BrowserModule,
