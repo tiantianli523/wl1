@@ -1,39 +1,35 @@
-.single_message{
+li{
+  background: grey;
+  list-style: none;
   width: 910px;
-  margin-top: 15px;
-  margin-left: 50px;
-}
-.user_headpic{
-  width: 60px;
-  height: 60px;
-  float: left;
-
-}
-.user{
-  float: left;
-  margin-left: 10px;
-
-}
-.user .name{
-  display: block;
-  float: left;
-  width: 100px;
-  /*background: grey;*/
-  color: #DD3915;
-  text-decoration: none;
-}
-.speak_datetime{
-  display: block;
-  /*background: pink;*/
-  width: 70px;
-  float: left;
+  margin-top: 25px;
   margin-left: 20px;
+
 }
-.delete{
-  color: grey;
+.image_link{
+  width: 30px;
+  /*height: auto;*/
+  float: left;
+  /*background: pink;*/
 }
-.content{
-  display: block;
+.image_link img{
+  border-radius: 50%;
+}
+.right{
   width: 800px;
+  float: left;
   margin-left: 15px;
 }
+.right_top a{
+  text-decoration: none;
+}
+.right_top .name{
+  color: #DD3915;
+}
+.right_top span{
+  color: grey;
+}
+.right_bottom{
+  margin-top: 10px;
+}
+

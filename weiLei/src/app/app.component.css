@@ -1,56 +1,86 @@
 .container{
-  width: 1150px;
+  width: 1130px;
+  margin-left: -20px;
 }
-#nav li{
-  list-style: none;
-  float: left;
+#nav{
+  background: #DD3915;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+}
+.nav_logo{
   display: block;
-  /*width: 70px;*/
-  height: 70px;
+  float: left;
+  width: 145px;
+  height: 45px;
+  line-height: 45px;
+  text-decoration: none;
+  /*background: grey;*/
+  padding-left: 40px;
 }
-#nav .nav_a{
+.nav_logo span{
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+.nav_bar ul{
+  float: left;
+  margin-left: -10px;
+}
+.nav_bar li{
+  list-style: none;
+  height: 35px;
+  float: left;
+  line-height: 35px;
+  margin-top: 5px;
+  margin-left: 23px;
+  /*background: yellowgreen;*/
+}
+.nav_bar a{
    text-decoration: none;
    color: #ffffff;
   font-size: 1.2em;
   font-weight: 500;
-  padding-right: 15px;
-  font-family: Magneto;
+  text-align: center;
  }
-#nav{
-    background: #DD3915;
-    width: 100%;
-    height: 70px;
-  }
-.nav_left li{
-  padding-left: 20px;
-  padding-top: 20px;
-
-}
-.nav_right li{
-  padding-left: 20px;
-  padding-top: 20px;
-}
-#nav li:hover .nav_a{
-  /*background: #bc3215;*/
+.nav_bar li:hover .nav_a{
   color: rgba(237, 237, 237, 0.77);
 }
-.logo_span{
-  font-size: 2em;
-}
 .search{
-  width: 300px;
-  height: 40px;
-  border-radius: 0px;
-  margin-top: 5px;
+  float: left;
+  margin-left: 35px;
+  margin-top: 7.5px;
 }
-
+.search input{
+  float: left;
+  border-radius: 0px;
+  width: 280px;
+  height: 30px;
+}
+.search a{
+  display: block;
+  /*background: #DD3915;*/
+  color: white;
+  text-decoration: none;
+  width: 50px;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  text-align: center;
+}
+.personal{
+  float: left;
+  margin-left: 200px;
+  line-height: 45px;
+  position: relative;
+}
 .drop-down{
   width: 90px;
   height: 150px;
   background: #DD3915;
   display: none;
   position: absolute;
-  left: 5px;
+  left: -30px;
 }
 .drop-down a{
   display: block;
@@ -69,11 +99,16 @@
 .my_headpic{
    border-radius: 50%;
  }
-#nav li .nav_a.active{
+.nav_bar li .nav_a.active{
   color: rgba(237, 237, 237, 0.77);
 }
+.drop-down a:hover{
+  color: rgba(237, 237, 237, 0.77);
+}
+
 .container_bottom{
   height: 200px;
+  width: 1100px;
 }
 .bottom_up{
   width: 140px;

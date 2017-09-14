@@ -1,8 +1,12 @@
-
-<div class="message-list">
-  <div class="single_message">
-    <div class="user_headpic"><img src="../../../../assets/images/user-head4.jpg" height="60" width="60"/></div>
-    <div class="user"><a class="name">企鹅吃喝指南</a><span class="speak_datetime">2017-3-23</span>|<span class="delete">删除</span></div>
-    <br><p class="content">{{mes}}</p>
-  </div>
-</div>
+ <ul>
+   <li *ngIf="mes">
+        <div class="left"><a href="" class="image_link"><img src="../../../../assets/images/my-headpic.jpg" height="30" width="30"/></a></div>
+        <div class="right">
+          <div class=right_top>
+            <a class="name" href="">叫我甜甜君</a>
+            <span>&nbsp;2017-9-14 | &nbsp;<a href="">删除</a></span>
+          </div>
+          <div class="right_bottom">{{mes}}</div>
+        </div>
+      </li>
+    </ul>

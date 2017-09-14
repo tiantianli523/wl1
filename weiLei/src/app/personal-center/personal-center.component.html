@@ -1,9 +1,6 @@
-<!--<h1>
-  personal-center works!
-</h1>-->
 <div class="container">
-  <div class="row">
-    <div class="col-md-6 col-lg-6">
+  <div class="info">
+    <div class="info_left">
       <div class="headpic "><img src="../../assets/images/headpic.jpg" height="160" width="160"/></div>
       <div class="simple_info">
         <p class="simple_info_nickname">叫我甜甜君的厨房</p>
@@ -12,7 +9,7 @@
         <p class="simple_info_favoritenum">被收藏20次</p>
       </div>
     </div>
-    <div class="col-md-6 col-lg-6">
+    <div class="info_right">
       <div class="set">
         <a routerLink="/account-set" routerLinkActive="active">设置个人信息</a>
       </div>
@@ -20,14 +17,12 @@
         <div class="follow_go">
           <p>关注的人</p>
           <a routerLink="./follow-go" routerLinkActive="active">4</a>
-          <!--这个路由还没写-->
         </div>
         <div class="follow_be">
           <div>
-          <p>被关注</p>
-          <a routerLink="./follow-be" routerLinkActive="active">4</a>
+            <p>被关注</p>
+            <a routerLink="./follow-be" routerLinkActive="active">4</a>
           </div>
-          <!--这个路由也没写-->
         </div>
       </div>
     </div>
@@ -42,9 +37,9 @@
       <li><a routerLink="./favorite-menu" routerLinkActive="active">收藏菜谱</a></li>
       <li><a routerLink="./favorite" routerLinkActive="active">收藏菜单</a></li>
     </ul>
-    <div>
-      <!--占位-->
-      <router-outlet></router-outlet>
-    </div>
+  </div>
+  <div>
+    <!--占位-->
+    <router-outlet></router-outlet>
   </div>
 </div>
