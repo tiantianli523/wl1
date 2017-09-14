@@ -1,3 +1,9 @@
-<p>
-  message-board works!
-</p>
+<div class="container_message-board">
+  <form action="">
+    <textarea name="message-content" [(ngModel)]="message_content" id="message_textarea" cols="30" rows="10"></textarea>
+    <br><input type="button" (click)="toSend(message_content)" class="send-message" value="发言">
+  </form>
+  <div>
+    <app-message-list></app-message-list>
+  </div>
+</div>

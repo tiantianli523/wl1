@@ -1,0 +1,39 @@
+.single_message{
+  width: 910px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.user_headpic{
+  width: 60px;
+  height: 60px;
+  float: left;
+
+}
+.user{
+  float: left;
+  margin-left: 10px;
+
+}
+.user .name{
+  display: block;
+  float: left;
+  width: 100px;
+  /*background: grey;*/
+  color: #DD3915;
+  text-decoration: none;
+}
+.speak_datetime{
+  display: block;
+  /*background: pink;*/
+  width: 70px;
+  float: left;
+  margin-left: 20px;
+}
+.delete{
+  color: grey;
+}
+.content{
+  display: block;
+  width: 800px;
+  margin-left: 15px;
+}

@@ -11,8 +11,9 @@ import { MyProductComponent } from './my-product/my-product.component';
 import { MyMenuGatherComponent } from './my-menu-gather/my-menu-gather.component';
 import { MessageBoardComponent } from './message-board/message-board.component';
 import { FavoriteComponent } from './favorite/favorite.component';
-import { SetPersonalInformationComponent } from './set-personal-information/set-personal-information.component';
 import { FavoriteMenuComponent } from './favorite-menu/favorite-menu.component';
+import { FollowGoComponent } from './follow-go/follow-go.component';
+import { FollowBeComponent } from './follow-be/follow-be.component';
 
 //配置路由表(父)
 const routes: Routes = [
@@ -24,6 +25,14 @@ const routes: Routes = [
       {
         path:'favorite',
         component:FavoriteComponent
+      },
+      {
+        path:'follow-go',
+        component:FollowGoComponent
+      },
+      {
+        path:'follow-be',
+        component:FollowBeComponent
       },
       {
         path:'favorite-menu',
@@ -40,10 +49,6 @@ const routes: Routes = [
       {
         path:'my-product',
         component:MyProductComponent
-      },
-      {
-        path:'set-personal-information',
-        component:SetPersonalInformationComponent
       },
       {
         path:'message-board',

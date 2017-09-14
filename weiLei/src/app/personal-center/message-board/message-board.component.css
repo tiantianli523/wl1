@@ -1,0 +1,17 @@
+#message_textarea{
+  width: 610px;
+  height: 250px;
+  margin-left: 50px;
+  margin-top: 30px;
+  border: solid 1px #ebebeb;
+}
+.send-message{
+  width: 100px;
+  height: 40px;
+  background-color: #DD3915;
+  border: 1px solid transparent;
+  color: white;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+

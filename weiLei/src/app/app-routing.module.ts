@@ -16,7 +16,8 @@ import { HotListComponent } from './hot-list/hot-list.component';
 import { DynamicComponent } from './dynamic/dynamic.component';
 import { SearchComponent } from './search/search.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-
+import { AccountSetComponent } from './account-set/account-set.component';
+import { CreateMenuComponent } from './create-menu/create-menu.component';
 
 //配置路由表(父)
 const routes: Routes = [
@@ -60,6 +61,14 @@ const routes: Routes = [
   //   path:'personal-center',
   //   component:PersonalCenterComponent
   // },
+  {
+    path: 'create-menu',
+    component: CreateMenuComponent
+  },
+  {
+    path: 'account-set',
+    component: AccountSetComponent
+  },
   {
     path: '',
     redirectTo: '/index',

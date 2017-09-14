@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms';
+
 
 import {PersonalCenterComponent } from './personal-center.component';
 import { MyMenuComponent } from './my-menu/my-menu.component';
@@ -7,11 +9,15 @@ import { MyProductComponent } from './my-product/my-product.component';
 import { MyMenuGatherComponent } from './my-menu-gather/my-menu-gather.component';
 import { MessageBoardComponent } from './message-board/message-board.component';
 import { FavoriteComponent } from './favorite/favorite.component';
-import { SetPersonalInformationComponent } from './set-personal-information/set-personal-information.component';
 import { FavoriteMenuComponent } from './favorite-menu/favorite-menu.component';
+import { FollowGoComponent } from './follow-go/follow-go.component';
+import { FollowBeComponent } from './follow-be/follow-be.component';
 
 /*导入路由模块*/
 import {PersonalCenterRoutingModule} from './personal-center-routing.module';
+import { MessageListComponent } from './message-board/message-list/message-list.component';
+
+
 
 @NgModule({
   declarations: [
@@ -21,12 +27,15 @@ import {PersonalCenterRoutingModule} from './personal-center-routing.module';
     MessageBoardComponent,
     FavoriteComponent,
     PersonalCenterComponent,
-    SetPersonalInformationComponent,
-    FavoriteMenuComponent
+    FavoriteMenuComponent,
+    FollowGoComponent,
+    FollowBeComponent,
+    MessageListComponent
   ],
   imports: [
     BrowserModule,
-    PersonalCenterRoutingModule
+    PersonalCenterRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [PersonalCenterComponent]

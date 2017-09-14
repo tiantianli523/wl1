@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewChild } from '@angular/core';
+import {MessageListComponent} from "./message-list/message-list.component";
+
 
 @Component({
   selector: 'app-message-board',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MessageBoardComponent implements OnInit {
 
+  @ViewChild(MessageListComponent)
+  child:MessageListComponent
   constructor() { }
 
   ngOnInit() {
   }
+  toSend(item){
+    this.child.mes=item;
+}
 
 }

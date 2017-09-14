@@ -48,9 +48,15 @@
   display: block;
   text-align: center;
 }
+.follow a{
+  text-decoration: none;
+  color: #DD3915;
+  font-size: 15px;
+  font-weight: 600;
+}
 .set{
   /*background: gray;*/
-  width: 80%;
+  width: 60%;
   height: 110px;
   margin-top: 20px;
 }

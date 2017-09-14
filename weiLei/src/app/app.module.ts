@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
@@ -13,11 +14,14 @@ import { HotListComponent } from './hot-list/hot-list.component';
 import { DynamicComponent } from './dynamic/dynamic.component';
 import { SearchComponent } from './search/search.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AccountSetComponent } from './account-set/account-set.component';
+import { CreateMenuComponent } from './create-menu/create-menu.component';
 
 import {AppRoutingModule} from './app-routing.module';
 
 /*导入路由模块*/
 import {PersonalCenterModule} from './personal-center/personal-center.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,11 +35,14 @@ import {PersonalCenterModule} from './personal-center/personal-center.module';
     HotListComponent,
     DynamicComponent,
     SearchComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    AccountSetComponent,
+    CreateMenuComponent
   ],
   imports: [
     BrowserModule,
     PersonalCenterModule,
+    FormsModule,
     AppRoutingModule,
   ],
   providers: [],
